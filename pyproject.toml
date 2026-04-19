@@ -1,0 +1,25 @@
+[project]
+name = "lc-sourse"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "alibabacloud-oss-v2>=1.2.5",
+    "dashscope>=1.25.17",
+    "fastapi>=0.136.0",
+    "langchain>=1.2.15",
+    "langchain-anthropic>=1.4.1",
+    "langchain-community>=0.4.1",
+    "langchain-deepseek>=1.0.1",
+    "langchain-openai>=1.1.14",
+    "langchain-tavily>=0.2.18",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "myapplication>=0.1.0",
+    "notebook>=7.5.5",
+    "tavily-python>=0.7.23",
+    "the-new-hotness>=1.4.1",
+    "uvicorn>=0.44.0",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true

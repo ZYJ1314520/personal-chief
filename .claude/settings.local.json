@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find app:*)",
+      "Bash(find . -type d \\\\\\(-name __pycache__ -o -name .pyc -o -name .venv -o -name venv -o -name .next -o -name node_modules -o -name .git -o -name *.pyc -o -name .idea -o -name *.egg-info \\\\\\))",
+      "Bash(ls -la *.pyc)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
