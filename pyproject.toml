@@ -13,10 +13,8 @@ dependencies = [
     "langchain-openai>=1.1.14",
     "langchain-tavily>=0.2.18",
     "langgraph-checkpoint-sqlite>=3.0.3",
-    "myapplication>=0.1.0",
     "notebook>=7.5.5",
     "tavily-python>=0.7.23",
-    "the-new-hotness>=1.4.1",
     "uvicorn>=0.44.0",
 ]
 
